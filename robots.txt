@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Disallow: /backend
+Disallow: /backend2
+Disallow: /include
+Disallow: /error/th
+Disallow: /error/en
+
+User-agent: *
+Allow: /
+Allow: /images
+Allow: /css
+Allow: /js
+
+Sitemap: https://connex.in.th/sitemap.xml

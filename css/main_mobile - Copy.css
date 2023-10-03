@@ -1,0 +1,5328 @@
+@font-face{
+  font-family: SukhumvitSet-Bold;
+  src: url(../fonts/SukhumvitSet-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+  font-display: swap;
+}   
+@font-face{
+  font-family: SukhumvitSet-Light;
+  src: url(../fonts/SukhumvitSet-Light.ttf);
+  font-style: normal;
+  font-variant:initial;
+  font-display: swap;
+}   
+@font-face{
+  font-family: SukhumvitSet-Medium;
+  src: url(../fonts/SukhumvitSet-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+  font-display: swap;
+}   
+@font-face{
+  font-family: SukhumvitSet-SemiBold;
+  src: url(../fonts/SukhumvitSet-SemiBold.ttf);
+  font-style: normal;
+  font-variant:initial;
+  font-display: swap;
+}   
+@font-face{
+  font-family: SukhumvitSet-Text;
+  src: url(../fonts/SukhumvitSet-Text.ttf);
+  font-style: normal;
+  font-variant:initial;
+  font-display: swap;
+}   
+@font-face{
+  font-family: SukhumvitSet-Thin;
+  src: url(../fonts/SukhumvitSet-Thin.ttf);
+  font-style: normal;
+  font-variant:initial;
+  font-display: swap;
+}   
+   
+
+/* transition: .33s all ease-out;  */
+
+a:hover{
+  text-decoration: none;
+} 
+header .dropdown:hover>.dropdown-menu {
+  display: block;
+  margin-top: 0px;
+}
+header .dropdown-toggle:after { 
+  content: none
+} 
+header{  
+  background: #FFFFFF;
+ /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); */
+} 
+header nav{
+  height: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+} 
+header nav .navbar-brand img{
+  margin-top: 10px ;
+  height: 38px;  
+}
+header nav .navbar-nav .nav-link{
+  font-family: SukhumvitSet-Text;
+  height: 50px;  
+  font-size: 22px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+header nav .navbar-nav .nav-item .nav-link{
+  font-family: SukhumvitSet-Medium;
+  height: 50px;   
+  line-height: 35px;
+  color: #FFFFFF; 
+  transition: .33s all ease-out;
+}
+header nav .navbar-nav .nav-item.active .nav-link{ 
+  color: #FFFFFF;
+  background: #5681BF;
+  border-radius: 100px;
+}
+header nav .navbar-nav .nav-item:hover .nav-link{ 
+  color: #000000;
+  background: #CCCCCC;
+  border-radius: 6px;
+}
+
+
+header nav .navbar-nav .nav-link-1{
+  font-family: SukhumvitSet-Text;
+  height: 50px;  
+  font-size: 22px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+header nav .navbar-nav .nav-item-1 .nav-link{
+  font-family: SukhumvitSet-Medium;
+  height: 50px;   
+  line-height: 35px;
+  color: #FFFFFF; 
+  transition: .33s all ease-out;
+}
+header nav .navbar-nav .nav-item-1.active .nav-link{ 
+  color: #FFFFFF;
+  background: #000000;
+  border-radius: 100px;
+}
+header nav .navbar-nav .nav-item-1:hover .nav-link{ 
+  color: #FFFFFF;
+  background: #000000;
+  border-radius: 6px;
+}
+
+
+.btn-tha{
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 100px;
+}
+.btn-tha:hover{  
+  color: #222222 !important;
+  background: #DADADA !important; 
+}
+.sec-home1{
+  background: url(../images/bg1_m.webp);
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100%  !important; 
+}
+.sec-home1 > div{
+  height: 450px;
+  background: rgba(55, 71, 87, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.sec-home1 .home1 h1{
+  font-family: SukhumvitSet-Medium;
+  color: #fff;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.sec-home1 .home1 h3{
+  font-family: SukhumvitSet-Medium;
+  color: #fff;
+  font-size: 24px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sec-home1 .home1 h4{
+  font-family: SukhumvitSet-Medium;
+  color: #fff;
+  font-size: 24px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.deal-type{
+  display: block; 
+  margin: 40px auto; 
+  width: 270px;
+  height: 45px;  
+  background: rgba(55, 71, 87, 0.6);
+  border-radius: 100px;
+}
+.deal-type ul{
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+.deal-type ul li{
+  width: 90px;
+  height: 45px;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;  
+}
+.deal-type ul li a{ 
+  color: #FFFFFF;
+  font-family: SukhumvitSet-Medium;  
+  font-size: 22px;
+  line-height: 50px;
+  height: 45px;
+}
+.deal-type ul li.active{
+  background: #FCB313;
+  border-radius: 100px;
+  color: #000000;
+}
+.deal-type ul li.active a{ 
+  color: #0B0000;
+}
+.sec-home1 input{
+  height: 56px;  
+  width: 640px; 
+  background: #FFFFFF;
+  border-radius: 100px;
+  padding-left: 27px;
+  padding-right: 150px;
+  color: #979797;
+  font-family: SukhumvitSet-Bold;  
+  font-size: 18px;
+  line-height: 29px;
+}
+.sec-home1 form{
+  position: relative;
+}
+.sec-home1 form .btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #1F4D8E;
+  border-radius: 100px; 
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 35px;
+  font-family: SukhumvitSet-Medium;  
+  color: #fff;
+  width: 138px;
+  height: 56px;
+}
+.sec-home2{
+  background: url(../images/bg2.webp) ,  #374757 ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 564px; 
+  background-blend-mode: luminosity; 
+} 
+.sec-home2 > div{
+  padding: 60px 70px 90px;
+}
+.img-flex{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.img-cover1{
+  margin-top: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+  height: 417px; 
+  background-position: center ;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+}
+.img-cover1:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  border-radius: 20px !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+}
+.img-cover1 .des1{
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 45px;
+}
+
+
+.img-cover-1{ 
+  width: 100%;
+  height: 417px; 
+  background-position: center ;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+}
+.img-cover-1:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  border-radius: 20px !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+}
+
+.img-cover2{
+  margin-top: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+  height: 202px; 
+  background-position: center ;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px !important;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end; 
+}
+.img-cover2:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  border-radius: 20px !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+}
+.img-cover2 .des2{
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 15px;
+}  
+
+
+.img-cover-2{ 
+  width: 100%;
+  height: 202px; 
+  background-position: center ;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px !important;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end; 
+}
+.img-cover-2:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  border-radius: 20px !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+}
+
+
+.img-cover1 .des1 h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 18px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+}
+.img-cover1 .des1 h5{
+  font-family: SukhumvitSet-Thin;  
+  font-size: 18px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+}
+
+.img-cover2 .des2 h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 18px;
+  line-height: 29px;
+  align-items: center; 
+  color: #fff;
+  padding-left: 20px;
+}
+.img-cover2 .des2 h5{
+  font-family: SukhumvitSet-Thin;  
+  font-size: 18px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+  padding-left: 20px;
+}
+.arr-right{
+  position: absolute; 
+  right: 0;
+  top: 40%;
+  margin-right: 10%;
+} 
+.arr-right p{ 
+  width: 89px;
+  height: 89px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .33s all ease-out;
+  border-radius: 100%;
+}
+.arr-right p img{ 
+  width: 17px;
+  height: 34px;
+} 
+.arr-right:hover p{  
+  background: rgba(255, 255, 255, 0.85);
+}
+
+
+
+.sec-content-slides{   
+  margin-top: 20px;
+  background-blend-mode: luminosity;
+  
+}
+.sec-content-slides > div{
+    border-radius: 20px;
+}
+.sec-content-slides h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 48px;
+  line-height: 76px; 
+  align-items: center;
+  text-align: center; 
+  color: #1F4D8E;
+}
+.sec-content-slides h2 span{ 
+  color: #FFB800;
+}
+.sec-content-slides h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 38px; 
+  align-items: center;
+  text-align: center; 
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+
+
+.content-slides-card{
+  width:370px;
+  padding: 0px;
+  background: #FFFFFF;
+  height: 250px; 
+  margin:10px;
+  /*box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);*/
+  border-radius: 20px;
+} 
+ .content-slides-card .cover{ 
+ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important; 
+  border-radius: 20px; 
+  height: 250px; 
+}
+
+ .content-slides-card .cover .coverimg{  
+    background-position: center center !important;
+    background-repeat: no-repeat !important;  
+    width: 100%;
+    height: 250px; 
+    border-radius: 20px; 
+    object-fit:cover;
+  }
+
+
+.sec-home3{
+  background: url(../images/bg3.webp) ,  #fff ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 750px; 
+  background-blend-mode: luminosity;
+}
+.sec-home3 > div{
+  padding: 50px 70px 90px;
+}
+.sec-home3 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 76px; 
+  align-items: center;
+  text-align: center; 
+  color: #1F4D8E;
+}
+.sec-home3 h2 span{ 
+  color: #FFB800;
+}
+.sec-home3 h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 38px; 
+  align-items: center;
+  text-align: center; 
+  color: #222222;
+  margin-bottom: 30px;
+}
+.condo-card{
+  width: 370px;
+  margin-left: 00px;
+  margin-right: 00px; 
+  height: 440px;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.condo-card .cover{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  height: 230px;
+  border-radius: 10px; 
+}
+
+
+.condo-card .coverimg{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+
+  width: 100%;
+  height: 230px;
+  border-radius: 10px; 
+  object-fit:cover;
+}
+
+.condo-card .coverimg_2{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important; 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; 
+  object-fit:cover;
+}
+
+
+
+.category-sec .condo-card .cover{
+  height: 200px; 
+}
+.category-sec .condo-card{
+  height: 420px; 
+}
+
+.condo-card .detail .detail_1{ 
+  border-bottom: 1px solid #E5E5E5;
+  padding-top: 13px;
+  padding-bottom: 5px; 
+  font-size: 26px;
+  line-height: 41px;  
+  color: #DD4939;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 15px;
+}
+.condo-card .detail .detail_1 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797;
+  padding-top: 10px;
+  font-family: SukhumvitSet-Light;   
+} 
+/*
+.condo-card .detail h4{ 
+  border-bottom: 1px solid #E5E5E5;
+  padding-top: 13px;
+  padding-bottom: 5px; 
+  font-size: 26px;
+  line-height: 41px;  
+  color: #DD4939;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 15px;
+}
+.condo-card .detail h4 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797;
+  padding-top: 10px;
+  font-family: SukhumvitSet-Light;   
+} */
+
+
+
+.condo-card .detail .detail_2{ 
+  font-size: 20px;
+  line-height: 32px; 
+  color: #374757;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+  max-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.condo-card .detail .detail_2 span{ 
+  float: right;   
+  font-size: 14px;
+ /* line-height: 22px; */
+  color: #1F4D8E; 
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px; 
+} 
+
+.condo-card .detail h2{   
+  font-size: 20px;
+  line-height: 32px; 
+  color: #374757;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+  max-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.condo-card .detail h2 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 32px;
+  color: #1F4D8E; 
+  background-color: #FFF;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+} 
+
+.condo-card .detail h2 .title_h2{ 
+  background-color: #FFF;
+  width: 90%;
+  max-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+} 
+
+/*
+.condo-card .detail h5{   
+  font-size: 20px;
+  line-height: 32px; 
+  color: #374757;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+  max-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.condo-card .detail h5 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #1F4D8E; 
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+}*/
+
+.condo-card .detail .detail_3{  
+  font-size: 14px;
+  line-height: 22px; 
+  color: #979797; 
+  font-family: SukhumvitSet-Text;   
+  max-height: 22px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*
+.condo-card .detail h6{  
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797; 
+  font-family: SukhumvitSet-Bold;   
+  max-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+}*/
+.condo-card .option{
+  border-top: 1px solid #E5E5E5;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+} 
+
+
+.condo-card table{
+  width: 100%;
+  text-align: center;
+} 
+
+.condo-card tr{
+  width: 100%;
+ 
+} 
+.condo-card td{
+  text-align: center;
+  width: 25%;
+} 
+
+.condo-card tr td img{
+  text-align: center;
+  height: 22px;
+  width: 22px !important;
+  display: unset !important;
+}
+.condo-card tr p{
+  font-family: SukhumvitSet-Bold;   
+  align-items: center;
+  color: #979797;
+  font-size: 11px;
+  line-height: 18px;
+}
+.condo-card tr p span{
+  color: #5681BF;
+} 
+
+.condo-card tr div{
+  font-family: SukhumvitSet-Bold;   
+  align-items: center;
+  color: #979797;
+  font-size: 16px;
+  line-height: 18px;
+}
+.condo-card tr div span{
+  color: #5681BF;
+} 
+
+.condo-card ul{
+  padding-left: 0px;
+  list-style: none;
+  justify-content: center;
+  display: grid;
+  justify-self: unset;
+  grid-template-columns: repeat(auto-fill,minmax(60px, 1fr));
+} 
+.condo-card ul li{
+  text-align: center;
+   
+}
+.condo-card ul li img{
+  text-align: center;
+  height: 22px;
+  width: 22px !important;
+  display: unset !important;
+}
+.condo-card ul p{
+  font-family: SukhumvitSet-Bold;   
+  align-items: center;
+  color: #979797;
+  font-size: 10px;
+  line-height: 16px;
+
+}
+.condo-card ul p span{
+  color: #5681BF;
+} 
+
+
+
+.condo-card-detail{
+  width: 500px;
+  margin-left: 0px;
+  margin-right: 0px; 
+  height: 505px;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.condo-card-detail .cover{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  height: 230px;
+  border-radius: 10px; 
+}
+
+.condo-card-detail  .cover .coverimg{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important; 
+  width: 100%;
+  height: 220px;
+  border-radius: 10px; 
+  object-fit:cover;
+}
+
+.category-sec .condo-card-detail .cover{
+  height: 200px; 
+}
+.category-sec .condo-card-detail{
+  height: 500px; 
+}
+.condo-card-detail .detail h4{ 
+  border-bottom: 1px solid #E5E5E5;
+  padding-top: 13px;
+  padding-bottom: 5px; 
+  font-size: 26px;
+  line-height: 41px;  
+  color: #DD4939;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 15px;
+}
+.condo-card-detail .detail h4 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797;
+  padding-top: 10px;
+  font-family: SukhumvitSet-Light;   
+} 
+.condo-card-detail .detail h5{   
+  font-size: 20px;
+  line-height: 32px; 
+  color: #374757;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+  max-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.condo-card-detail .detail h5 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #1F4D8E; 
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+}
+.condo-card-detail .detail h6{  
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797; 
+  font-family: SukhumvitSet-Bold;   
+  max-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.condo-card-detail .option{
+  border-top: 1px solid #E5E5E5;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+} 
+.condo-card-detail ul{
+  padding-left: 0px;
+  list-style: none;
+  justify-content: center;
+  display: grid;
+  justify-self: unset;
+  grid-template-columns: repeat(auto-fill,minmax(60px, 1fr));
+} 
+.condo-card-detail ul li{
+  text-align: center;
+  width: 80px;
+}
+.condo-card-detail ul li img{
+  text-align: center;
+  height: 22px;
+  width: 22px !important;
+  display: unset !important;
+}
+.condo-card-detail ul h6{
+  font-family: SukhumvitSet-Bold;   
+  align-items: center;
+  color: #979797;
+  font-size: 10px;
+  line-height: 16px;
+}
+.condo-card-detail ul h6 span{
+  color: #5681BF;
+} 
+
+
+
+.owlm .owl-nav.disabled {
+  display: flex !important;
+}
+
+.owlm .owl-nav.disabled {
+  display: flex !important;
+} 
+
+.owlm .owl-nav div{
+  position: absolute !important;
+  width: 89px !important;
+  height: 89px !important; 
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 0;
+  margin-top: 100px !important; 
+  border-radius: 100% !important;
+  color: rgba(0, 0, 0, 0) !important; 
+}  
+.owlm .owl-prev {
+  left: 0;  
+  margin-left: 0px !important; 
+  background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important; 
+  background-position:   center !important;
+  background-repeat: no-repeat !important;
+  background-size:  17px 34px !important;
+} 
+.owlm .owl-next {
+  right: 0;  
+  margin-right: 0px !important; 
+  background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important; 
+  background-position:   center !important;
+  background-repeat: no-repeat !important;
+  background-size:  17px 34px !important;
+} 
+
+.sec-home4{
+  background: url(../images/bg4.webp?v=1) ,  #374757 ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 750px; 
+  background-blend-mode: luminosity;
+}
+.sec-home4 > div{
+  padding: 50px 70px 90px;
+}
+.sec-home4 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 76px; 
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+}
+.sec-home4 h2 span{ 
+  color: #FFB800;
+}
+.sec-home4 h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 38px; 
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+  margin-bottom: 30px;
+} 
+.sec-home6{
+  background: url(../images/bg6.webp?v=1) ,  #2C5999 ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 818px; 
+  background-blend-mode: luminosity;
+}
+.sec-home6 > div{
+  padding: 40px 70px 50px;
+}
+.sec-home6 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 76px; 
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+}
+.sec-home6 h2 span{ 
+  color: #FFB800;
+}
+.sec-home6 h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 38px; 
+  align-items: center;
+  text-align: center; 
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.our-ser  {
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-color: #fff;
+} 
+
+.our-ser .icon-ser{
+  width: 100px;
+  height: 100px;
+/*  background: #FFFFFF;*/
+/*  border: 4px solid #FFB800; */
+  text-align: center;
+  border-radius: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+} 
+.our-ser .icon-ser img{ 
+  width: 100%;
+
+} 
+.our-ser h4{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 38px; 
+  color: #fff;
+} 
+.our-ser p{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 16px;
+  line-height: 22px; 
+  color: #fff; 
+}
+.btn-yellow{
+  margin-top: 30px;
+  font-family: SukhumvitSet-Bold; 
+  font-size: 22px;
+ /* line-height: 45px;*/
+  padding:10px 15px 5px 15px; 
+  color: #fff;
+  /*
+  width: 315px;
+  height: 57px; */ 
+  background: #FF9900;
+  border-radius: 100px; 
+  transition: .33s all ease-out;
+}
+.btn-yellow:hover{  
+  background: #fff; 
+}
+
+
+.sec-home7{
+  background: #fff ; 
+  height: 650px; 
+  background-blend-mode: luminosity;
+}
+.sec-home7 > div{
+  padding: 30px 70px 50px;
+}
+.sec-home7 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 76px;
+  color: #374757;
+}
+.sec-home7 h2 b{ 
+  color: #DB1F35;
+}
+.sec-home7 h2 span{ 
+  color: #FFB800;
+}
+.news-card{ 
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0px 10px 0px;
+  border-radius: 10px; 
+  box-shadow: 0px 5px 5px rgba(0, 4, 10, 0.1);
+}
+.item7 li a{
+  display: flex;
+  justify-content: center; 
+
+}
+.news-card .img{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+/*  height: 191px; */
+  border-radius: 10px; 
+  margin-top: 0px;
+}
+.news-card h4{
+  margin-top: 15px;
+  font-family: SukhumvitSet-Bold;  
+  font-size: 20px;
+  line-height: 24px;
+  color: #000; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.news-card p{
+  font-family: SukhumvitSet-Light;
+  font-size: 16px;
+  line-height: 24px; 
+  color: #000;
+} 
+
+.owlm2 .owl-nav div{
+  position: absolute !important;
+  width: 28px !important;
+  height: 28px !important;
+  background-color: #000000 !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 0;
+  margin-top: -53px !important; 
+  border-radius: 100% !important;
+  color: rgba(0, 0, 0, 0) !important; 
+}  
+.owlm2 .owl-prev {
+  right: 0;   
+  background: url(../images/left2.png) !important; 
+  background-position:   center !important;
+  background-repeat: no-repeat !important;
+  background-size: 6.5px 13px !important;
+  margin-right: 45px !important;
+} 
+.owlm2 .owl-next {
+  right: 0;   
+  background: url(../images/right2.png) !important; 
+  background-position:   center !important;
+  background-repeat: no-repeat !important;
+  background-size: 6.5px 13px !important;
+}
+.owlm2 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: flex !important;
+}
+
+.btn-yellow2{
+  /*position: absolute !important; */
+  right: 0;
+  top: 0; 
+  font-family: SukhumvitSet-Bold; 
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 117px;
+  height: 34px;
+  background: #FF9900;
+  border-radius: 100px; 
+  transition: .33s all ease-out;
+}
+.btn-yellow2:hover{  
+  color: #000;
+}
+
+.sec-home8{
+  background: url(../images/bg8.webp) ,  #374757 ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 640px; 
+  background-blend-mode: luminosity;
+}
+.sec-home8 > div{
+  padding: 65px 70px;
+}
+.sec-home8 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 76px;  
+  color: #fff;
+}
+.sec-home8 h2 span{ 
+  color: #FFB800;
+  /*text-transform: uppercase; */
+}
+.sec-home8 h6{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff; 
+  margin-bottom: 30px;
+}
+.sec-home8 p{
+  font-family: SukhumvitSet-Light;  
+  font-size: 16px;
+ /* line-height: 28px;*/
+  color: #fff; 
+  margin-bottom: 30px;
+} 
+
+
+
+.sec-contact{
+  background: url(../images/bg8.webp?v=2) ,  #374757 ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: auto 100%  !important;
+  height: 640px; 
+  background-blend-mode: luminosity;
+  margin-bottom: 20px;
+    display: flex;
+} 
+
+.sec-contact > div{ 
+ 
+ 
+}
+.sec-contact h1{
+  font-family: SukhumvitSet-Bold;    
+  font-size: 28px;
+  line-height: 70px; 
+  text-align: center; 
+  width: 100%;
+  color: #FFB800;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sec-contact h2{
+  font-family: SukhumvitSet-Text;
+  margin-top: 20px;  
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;  
+}
+.sec-contact h2 span{ 
+  color: #FFB800;
+  text-transform: uppercase;
+}
+.sec-contact h6{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff; 
+  margin-bottom: 30px;
+}
+.sec-contact p{
+  font-family: SukhumvitSet-Light;  
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff; 
+  margin-bottom: 30px;
+}
+
+.sec-contact p{
+  font-family: SukhumvitSet-Light;  
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff; 
+  margin-bottom: 30px;
+}  
+
+.sec-contact .contact_img{
+  border-radius: 10px;  
+  margin-bottom: 20px; 
+  width: 100%;
+} 
+
+
+.sec-contact .contact_img .contact_img_1{
+  border-radius: 10px;
+  margin-bottom: 0px; 
+  width: 100%; 
+} 
+
+.sec-contact .contact_text{
+  border-radius: 10px; 
+  padding: 0px;
+  background-color: #000;
+  margin-bottom: 20px;
+
+} 
+.sec-contact .contact_text .contact_logo{
+  padding: 20px; 
+} 
+
+.contact_tel{
+  color: #fff;
+  font-size: 12px; 
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.contact_tel img{
+  width: 25px;
+}
+
+.contact_tel_2{
+  color: #fff;
+  font-size: 12px; 
+  margin-bottom: 20px;
+}
+
+.contact_tel_2 img{
+  width: 25px;
+
+}
+
+
+footer{ 
+  background: #222222;
+  padding: 45px 70px 30px;
+}
+footer h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 18px;
+  line-height: 29px;
+  color: #E5E5E5; 
+  margin-bottom: 12px;
+}
+footer ul{
+  list-style: none;
+  padding-left: 0;
+} 
+footer ul li a{
+  font-family: SukhumvitSet-Light;  
+  font-size: 14px;
+  line-height: 22px; 
+  color: #AFAFAF; 
+  transition: .33s all ease-out;
+  /* font-weight: bold;*/
+}
+footer ul li a:hover{ 
+  color: #fff; 
+}
+footer .more{ 
+  font-family: SukhumvitSet-Light;  
+  font-size: 14px;
+  line-height: 22px; 
+  color: #FFB800; 
+}
+footer .bot-menu{
+  margin-top: 30px;
+  border-top: 1px solid #D8D8D8;
+  padding-top: 20px; 
+}
+footer .bot-menu a{
+  text-transform: capitalize;
+  font-family: SukhumvitSet-Light;  
+  font-size: 14px;
+  line-height: 22px; 
+  color: #fff;  
+  margin-right: 15px;
+  transition: .33s all ease-out;
+}
+footer .bot-menu a:hover{
+  color: #FFB800; 
+}
+
+footer .bot-menu span{
+  float: right;
+  text-transform: capitalize;
+  font-family: SukhumvitSet-Light;  
+  font-size: 14px;
+  line-height: 22px; 
+  color: #fff;    
+}
+.follow img{
+  height: 22px;
+  margin-right: 5px;
+} 
+
+
+.sec-home10{
+  background:  #fff ; 
+  height: 500px;  
+}
+.sec-home10 > div{
+  padding: 65px 70px;
+}
+.sec-home10 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 76px;  
+  color: #234261;
+  text-align: center;
+ /* margin-bottom: 30px;*/
+}
+.sec-home10 h2 span{ 
+  color: #FFB800;
+ /* text-transform: uppercase;*/
+} 
+.sec-home10 h2 b{ 
+  color: #F82913; 
+}
+
+
+
+.jus-flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.sec-home9{
+  background: url(../images/bg9.webp) ,  #fff ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 600px; 
+  background-blend-mode: luminosity;
+}
+.sec-home9 > div{
+    padding: 30px 20px;
+}
+.sec-home9 h2{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 28px;
+  line-height: 35px; 
+  margin-top: 20px;
+  color: #374757;
+  text-align: center;
+}
+.sec-home9 h2 span{ 
+  color: #FFB800;
+ /* text-transform: uppercase; */
+}
+.sec-home9 h2 b{ 
+  color: #F82913; 
+}
+.sec-home9 p{ 
+  font-family: SukhumvitSet-Light;  
+  font-size: 16px;
+  color: #000; 
+  font-weight: normal;
+  padding: 20px 20px 0px 20px;
+}
+
+
+.sec-home9{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+ 
+.sec-home9-li{ 
+  max-height: 500px;
+}
+
+ 
+
+.testimonial{
+  margin-top: 10px;
+  width: 632px;
+/*  height: 400px;   */
+  background: #FFFFFF;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 24px 17px 0px 17px;
+  position: relative;
+  margin-left: 50px; 
+  margin-bottom: 5px;
+}
+.testimonial img{
+  position: absolute;
+  left: 0; 
+  width: 130px !important;
+  height: 130px !important;
+  padding: 5px;
+  border-radius:80px;
+  box-shadow: 3px 2px 5px #ccc; 
+}
+.testimonial h4{
+  padding-left: 170px;
+  font-family: SukhumvitSet-Bold;
+  font-size: 20px;
+  line-height: 25px; 
+  color: #000000;
+}
+.testimonial h6{
+  position: absolute; 
+  bottom: 0px;
+  margin-bottom: 38px;
+  margin-left: 170px;
+  font-family: SukhumvitSet-Bold;
+  font-size: 18px;
+  line-height: 21px; 
+  color: #000000;
+}
+
+.sec-home9 .owl-dots.disabled{
+  display: block !important;
+  justify-content: center;
+  margin-top: 40px !important;
+}
+.sec-home9 .owl-dot span{ 
+  width: 14px !important;
+  height: 14px !important;
+} 
+.sec-home9 .owl-dot.active span{
+  background: #5681BF !important; 
+}
+.sec-home9 .owl-nav.disabled{
+  display: none !important;
+}
+
+.social-con{
+  position: fixed;
+  margin-right: 60px;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 60px;
+  width: 85px; 
+  height: 85px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  padding: 10px;
+  z-index: 11;
+}
+.social-con.active{ 
+  background: rgba(255, 255, 255, 0.6);
+  height: unset;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+}
+.social-con img{
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  display: none;
+}
+.social-con.active img{ 
+  display: block;
+}
+.social-con button{
+  width: 65px;  
+  height: 65px; 
+  background-color: #1F4D8E;
+  border-radius: 100%;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 26px;
+}
+.social-con button:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+.navbar-collapse form{
+  position: relative;
+}
+.navbar-collapse form input{
+  width: 380px;
+  height: 46px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  border-radius: 100px;
+  padding-right: 65px;
+  padding-left: 25px;
+  font-family: SukhumvitSet-Bold;
+  font-size: 18px;
+  line-height: 29px;
+  color: #979797;
+}
+.navbar-collapse form button.btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #1F4D8E;
+  border-radius: 0px 100px 100px 0px;
+  width: 56px;
+  height: 46px;
+  color: #fff;
+}
+.map-nav{
+  height: 45px;  
+  background: #1F4D8E;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  font-size: 16px;
+  line-height: 25px;  
+  font-family: SukhumvitSet-Bold;
+  color: #FFFFFF;
+  max-height: 45px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.map-nav span{ 
+  color: #FFB800;
+}
+
+a.link_nav{ 
+  color:#fff;
+}
+
+a.link_nav:link{ 
+  color:#fff;
+}
+a.link_nav:hover{
+  color: #FFB800;
+}
+
+.category-sec{
+  background: #E5E5E5; 
+  justify-content: center;
+  display: flex;
+}
+.category-sec > div{ 
+  padding: 50px 100px ;
+}
+.category-sec .condo-card{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
+}
+
+.category-sec .condo-card-detail{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
+}
+
+.h1x{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 44px;
+  line-height: 70px;  
+  color: #374757;
+  text-align: center;
+}
+.h1x span{ 
+  color: #FFB800;
+}
+
+.bootstrap-select{ 
+  border-radius: 10px;
+}
+.bootstrap-select .btn{
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  border-radius: 10px;
+}
+.bootstrap-select .btn:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.bootstrap-select .btn .filter-option-inner-inner{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 13px;
+  line-height: 26px;  
+  color: #374757; 
+}
+.dropdown-menu .dropdown-item span{
+  font-family: SukhumvitSet-Bold;   
+  font-size: 14px;
+  line-height: 26px;  
+  color: #374757;
+}
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle{ 
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  border-radius: 10px;
+}
+
+
+.category-sec label{
+  font-family: SukhumvitSet-Bold;   
+  font-size: 14px;
+  line-height: 22px;  
+  color: #DD4A36;
+  margin-top: 8px;
+
+}
+.search-detail{
+  font-family: SukhumvitSet-Bold;  
+  width: 307px;
+  height: 46px;  
+  background: #1F4B8A;
+  border: 1px solid #979797;
+  border-radius: 10px; 
+  font-size: 14px;
+  line-height: 35px;  
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.search-text{
+  font-family: SukhumvitSet-Bold;  
+  width: 100%;
+  height: 46px;   
+  border: 1px solid #979797;
+  border-radius: 100px; 
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 35px;  
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+  input::placeholder {
+ 
+  padding-left:10px;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  padding: 9px 8px;
+  margin-right: 15px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.detailx{
+  width: 307px !important;
+}
+.number-page{
+  list-style: none;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.number-page li{
+  font-family: SukhumvitSet-Bold;   
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  background: #FFFFFF;
+  border: 1px solid #5681BF;
+  border-radius: 8px;  
+  transition: .33s all ease-out;
+}
+.number-page li a{ 
+  display: inline-block;
+  width: 30px;
+  height: 30px; 
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;  
+  color: #374757;
+}
+
+.number-page li.active{ 
+  background: #5681BF;
+  border: 1px solid #5681BF; 
+}
+.number-page li.active a{  
+  color: #fff !important;
+}
+
+
+.number-page li:hover a{  
+  color: #fff !important;
+} 
+.number-page li:hover{ 
+  background: #5681BF;
+  border: 1px solid #5681BF; 
+}
+.number-page + p{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;   
+  color: #979797;
+
+}
+.condo-card-map{
+  display: grid;
+  justify-self: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill,minmax(19%, 0px));
+  grid-gap: 3px;
+}
+.condo-card-map .condo-card{
+  width: 260px;
+  height: 385px; 
+  padding: 10px;
+}
+.condo-card-map .condo-card .cover{ 
+  height: 122px; 
+}
+.condo-card-map .condo-card .detail h4{
+  font-size: 20px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.condo-card-map .condo-card .detail h5{
+  font-size: 16px;
+}
+.condo-card-map .condo-card .detail h6{
+  font-size: 12px;
+}
+.condo-card-map .condo-card ul { 
+  grid-template-columns: repeat(auto-fill,minmax(50px, 1fr));
+}
+.condo-card-map .condo-card ul h6{
+  font-size: 8px;
+}
+.condo-card-map .condo-card .option {
+  border-top: 1px solid #E5E5E5;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.col-map.active{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.div-map{
+  height: 460px; 
+  margin-top: 30px; 
+  border: 10px solid #FFFFFF;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px; 
+}
+.div-map iframe{
+  border-radius: 10px; 
+}
+
+.map-arr{
+  top: calc(50% - 25px);
+  margin-left: -25px;
+  position: absolute;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  outline: 10px solid #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  justify-content: center;
+  display: flex;
+  align-items: center;  
+  background: url(../images/left_.png) #4383DF;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 9.55px 19.1px auto !important;
+  z-index: 11;
+  cursor: pointer;
+}
+.map-arr.active{ 
+  background: url(../images/right_.png) #4383DF; 
+  order: 1;  
+}
+.category-sec .col-xl-3.active{
+  order: 2; 
+}
+.category-sec .numx.active{
+  order: 3;
+}
+.main-bg{
+  background: #E5E5E5;
+  padding-bottom: 45px;
+}
+iframe{
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+}
+.h11{
+  font-family: SukhumvitSet-Bold;    
+  font-size: 44px;
+  line-height: 70px; 
+  text-align: center; 
+  color: #FFB800;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.contact-user{
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact-user .user{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.contact-user .user img{
+  border-radius: 100%;
+  width: 171px;
+  height: 171px;
+}
+.contact-user .user h4{ 
+  font-family: SukhumvitSet-Bold;    
+  font-size: 20px;
+  line-height: 24px;  
+  color: #222222;
+  margin-top: 20px;
+} 
+.contact-user .user h5{
+  font-family: SukhumvitSet-Light;    
+  font-size: 16px;
+  line-height: 19px; 
+  color: #222222;
+}
+.contact-user .user h6 a{
+  font-family: SukhumvitSet-Light;    
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center; 
+  color: #222222;
+  margin-top: 20px;
+}
+
+.contact-user .user h6 img{
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+} 
+
+.contact-main{
+  height: 641px;  
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.contact-main form h3{
+  font-family: SukhumvitSet-Bold;   
+  font-size: 22px;
+  line-height: 35px;  
+  color: #222222;
+
+}
+.contact-main form select{
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  height: 44px;
+  margin-top: 16px;
+  font-family: SukhumvitSet-Thin;   
+  font-size: 20px;
+  line-height: 23px; 
+  color: #979797; 
+  font-weight: bold;
+}
+.contact-main form input{
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  height: 44px;
+ /* margin-top: 16px;*/
+  font-family: SukhumvitSet-Thin;   
+  font-size: 20px;
+  line-height: 23px; 
+  color: #979797; 
+  font-weight: bold;
+}
+.contact-main form textarea{
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  height: 105px;
+ /* margin-top: 16px; */
+  font-family: SukhumvitSet-Thin;   
+  font-size: 20px;
+  line-height: 23px; 
+  color: #979797;
+  font-weight: bold;
+}
+.contact-main form button{
+  margin-top: 16px;
+  height: 44px; 
+  font-family: SukhumvitSet-Thin;   
+  background: #1F4D8E;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  transition: .33s all ease-out;
+}
+.contact-main form button:hover{
+  background: #5681BF;
+  color: #fff;
+} 
+.contact-description h3{
+  font-family: SukhumvitSet-Bold;   
+  font-size: 22px;
+  line-height: 35px;  
+  color: #222222; 
+}
+.contact-description h4{
+  font-family: SukhumvitSet-Bold;   
+  font-size: 20px;
+  line-height: 24px; 
+  color: #222222; 
+}
+.contact-description h5{
+  position: relative;
+  font-family: SukhumvitSet-Bold;   
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222; 
+  padding-left: 34px;
+}
+.contact-description h5 img{
+  position: absolute;
+  left: 0;
+}
+
+
+.benefits{
+  background: url(../images/bgb.webp) ,#374757;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important; 
+  background-blend-mode: luminosity; 
+}
+.benefits > div{
+  padding-top: 30px;
+  height: 480px;  
+} 
+.benefits h1{
+  font-family: SukhumvitSet-Medium;
+  font-size: 44px;
+  line-height: 50px; 
+  color: #FFB800;
+  text-align: center;
+} 
+
+.benefits h3{
+  font-family: SukhumvitSet-Medium; 
+  font-size: 24px;
+  line-height: 29px; 
+  color: #FFFFFF;
+  text-align: center;
+} 
+.bene-box{ 
+  height: 630px;  
+  background: rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  margin-top: 12px;
+  padding: 15px 35px 15px 15px;
+  position: relative;
+} 
+.bene-box h4{ 
+  font-family: SukhumvitSet-Medium; 
+  font-size: 20px;
+  line-height: 24px; 
+  color: #FFFFFF; 
+  margin-top: 20px;
+  font-weight: bold;
+}
+.bene-box h5{ 
+  font-family: SukhumvitSet-Medium; 
+  font-size: 16px;
+  line-height: 19px; 
+  color: #FFFFFF; 
+  padding-left: 142px;
+  padding-top: 20px;
+  height: 50px;
+}
+.bene-box > div{ 
+  position: absolute;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px; 
+  /*background: #F8F9FA; */
+  justify-content: center;
+  align-items: center;
+  padding: 0px; 
+  display: flex;
+} 
+.bene-box > p{ 
+  height: 20px; 
+  border-style: 1
+} 
+ 
+
+.bene-box-2{   
+  background: rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  margin-top: 12px;
+  padding: 20px 10px 10px 10px;
+
+  position: relative;
+} 
+.bene-box-2 h4{ 
+  font-family: SukhumvitSet-Medium; 
+  font-size: 20px;
+  line-height: 24px; 
+  color: #FFFFFF;  
+  text-align: center; 
+  margin-top: 20px; 
+  font-weight: bold;
+}
+.bene-box-2 h5{ 
+  font-family: SukhumvitSet-Medium; 
+  font-size: 14px;
+  line-height: 20px; 
+  color: #FFFFFF;  
+  padding-top: 10px;
+  /*padding-left: 142px;*/
+}
+.bene-box-2 > div{  
+  border-radius: 100%;
+  text-align: center;   
+  /*background: #F8F9FA; */ 
+  padding: 0px;  
+} 
+
+.bene-box-2 > div img{  
+  border-radius: 100%;
+  text-align: center;   
+  /*background: #F8F9FA; */ 
+  padding: 0px; 
+  width: 100px;
+} 
+
+.bene-box-2 ul {
+  font-family: SukhumvitSet-Medium; 
+  font-size: 14px;
+  padding-top: 10px;
+  margin-left: -20px;
+  color: #ffffff; 
+}
+
+.form-dep{
+  background: #E5E5E5;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.form-dep .dep-box{
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 38px 45px;
+}
+.form-dep .dep-box h1{
+  font-family: SukhumvitSet-Bold; 
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+} 
+.form-dep .dep-box form textarea{
+  font-family: SukhumvitSet-Thin; 
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 23px; 
+  color: #979797;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px; 
+  height: 129px;   
+}
+.form-dep .dep-box form input{
+  font-family: SukhumvitSet-Thin; 
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 23px; 
+  color: #979797;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  height: 44px; 
+}
+.form-dep .dep-box form label{ 
+  font-family: SukhumvitSet-Bold; 
+  font-size: 20px;
+  line-height: 23px; 
+  color: #374757; 
+}
+.form-dep .dep-box form h3{ 
+  margin-top: 50px;
+  font-family: SukhumvitSet-Bold; 
+  font-size: 24px;
+  line-height: 29px; 
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.form-dep .dep-box form .bootstrap-select{ 
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.form-dep .dep-box form .bootstrap-select .btn{
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  height: 44px; 
+}
+.form-dep .dep-box form .bootstrap-select .btn:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.form-dep .dep-box form .bootstrap-select .btn .filter-option-inner-inner{
+  font-family: SukhumvitSet-Light;  
+  font-size: 17px;
+  line-height: 26px;  
+  color: #979797; 
+}
+
+.drop-zone { 
+  height: 129px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: SukhumvitSet-Bold;   
+  font-size: 20px;
+  cursor: pointer;
+  color: #979797;
+  border: 2px dashed #5681BF; 
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+} 
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+} 
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+} 
+.form-dep .dep-box form h6{  
+  font-family: SukhumvitSet-Bold;  
+  font-size: 16px;
+  line-height: 19px; 
+  color: #222222;
+}
+.form-dep .dep-box form h6 a{   
+  color: #FFB800;
+}
+.boxg{
+  height: 129px; 
+  background: #F5F5F5;
+  border-radius: 4px;
+  padding-top: 17px;
+  font-size: 16px;
+  line-height: 32px; 
+  font-family: SukhumvitSet-Thin;  
+  color: #979797;
+}
+
+.form-dep .dep-box form .btn{
+  font-family: SukhumvitSet-Bold;   
+  height: 43px;  
+  width: 315px;
+  background: #1F4D8E;
+  border-radius: 4px;
+  background: #1F4D8E;
+  border-radius: 4px; 
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center; 
+ /* color: #FFFFFF;*/
+}
+.top-detail > div{ 
+  height: 136px;   
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.top-detail > div:nth-child(1){  
+  background: #1F4D8E;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); 
+  border-radius: 20px 0 0 20px;
+  padding: 8px 22px 6px;
+}
+.top-detail > div:nth-child(2){
+  background: #FFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); 
+  border-radius: 0 20px 20px  0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-detail h1{  
+  font-family: SukhumvitSet-Bold;  
+  font-size: 18px;
+  line-height: 24px; 
+  color: #FFD964;
+  margin-bottom: 0px;
+}
+
+ 
+.top-detail h6{  
+  font-family: SukhumvitSet-Text;  
+  font-size: 14px;
+  line-height: 22px; 
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.top-detail span i{  
+  color: #FFB800;
+}
+.top-detail span{  
+  font-family: SukhumvitSet-Text;  
+  font-size: 16px;
+  line-height: 25px; 
+  color: #FFFFFF;
+}
+.top-detail h4{  
+  font-family: SukhumvitSet-Text;  
+  font-size: 16px;
+  line-height: 25px; 
+  margin-top:5px;
+  color: #FFFFFF;
+}
+.top-detail img{  
+  height: 60px;
+  width: 60px; 
+} 
+.top-detail .optix > div{   
+  margin-right: 2px;
+  margin-left: 2px;
+} 
+.top-detail h5{  
+  font-family: SukhumvitSet-Text;  
+  font-size: 12px;
+  line-height: 19px;  
+  color: #979797;
+} 
+.top-detail h5 span{   
+  font-family: SukhumvitSet-Text; 
+  font-size: 12px;
+  line-height: 19px;  
+  color: #5681BF;
+}
+.img-view{
+  height: 573px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  border-radius: 40px 0px 0px 40px;
+  margin-bottom: 80px;
+  position: relative;
+  cursor: pointer;
+}
+
+.img-view-1{ 
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 80px;
+  position: relative;
+  cursor: pointer;
+  background-position: center center !important;
+  background-repeat: no-repeat !important; 
+  width: 100%;  
+  height: 250px;
+  object-fit:cover;
+
+}
+
+.img-view-sub > div{
+  height: 181px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important; 
+  margin-bottom: 15px;
+}
+
+
+.img-view-sub >  div > img {
+  height: 181px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+ /* background-size: 100% auto !important; */
+  width: 100%;
+  margin-bottom: 15px;
+  object-fit:cover;
+}
+
+.img_r1{
+  border-radius: 0px 40px 0px 0px;
+}
+
+.img_r2{
+  border-radius: 0px 0px 40px 0px; 
+ 
+}
+
+.img-view-sub > div > img:nth-child(3)::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 0px 0px 40px 0px;
+}
+
+
+.img-view-sub > div:nth-child(1){
+  border-radius: 0px 40px 0px 0px;
+}
+.img-view-sub > div:nth-child(3){ 
+  border-radius: 0px 0px 40px 0px; 
+  position: relative;
+}
+.img-view-sub > div:nth-child(3) p{
+  position: absolute; 
+  font-family: SukhumvitSet-Bold; 
+  border-radius: 0px 0px 40px 0px;
+  font-size: 32px;
+  line-height: 51px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #374757;
+  height: 100%;
+  width: 100%;
+}
+.img-view-sub > div:nth-child(3)::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 0px 0px 40px 0px;
+}
+.btn-print{
+  font-family: SukhumvitSet-Text; 
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  width: 87px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; 
+  color: #374757 !important;
+  padding-top: 10px;
+  transition: .33s all ease-out; 
+  z-index: 111;
+}
+.btn-share{
+  font-family: SukhumvitSet-Text; 
+  position: absolute;
+  right: 120px;
+  top: 35px;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+ 
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; 
+  color: #374757 !important;
+  padding-top: 5px;
+  transition: .33s all ease-out; 
+  z-index: 111;
+}
+
+.btn-print:hover{
+  background: rgba(255, 255, 255, 1); 
+}
+.btn-share:hover{
+  background: rgba(255, 255, 255,1);  
+}
+
+.footer-sub .img-responsive .center-block{ 
+  height: 80px;
+}
+.rent-sell{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 111;
+}
+.label-rent{
+  position: relative;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 20px;
+  width: 301px;
+  height: 62px;
+  margin-left: 20px;
+  margin-top: 35px;
+  padding: 10px 15px 10px 17px; 
+  display: inline-block;
+  transition: .33s all ease-out;
+}
+.label-rent:hover{
+  background: rgba(255, 255, 255,1);  
+}
+.label-rent p{ 
+  text-align: right;
+  font-family: SukhumvitSet-Bold; 
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px; 
+  color: #DD4939;
+  align-items: center;
+}
+.label-rent > div{ 
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 121px;
+  height: 62px;  
+  background: #DD4939;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+.label-rent > div span:nth-child(1){ 
+  font-family: SukhumvitSet-Bold; 
+ /* border-right: 1px solid #fff; */
+  font-size: 28px;
+  line-height: 44px; 
+  color: #FFFFFF;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+.label-rent > div span:nth-child(2){ 
+  font-family: SukhumvitSet-Text;  
+  font-size: 14px;
+  line-height: 17px;  
+  color: #FFFFFF;
+}
+.box-view{
+  position: absolute;
+  left: 20px;
+  bottom: 20px; 
+  display: flex;
+}
+.box-view .box-view-type {
+  width: 210px;
+ 
+  margin-left: 15px;
+  background: #FFFFFF;
+ /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); */
+ /* border-radius: 20px;  */
+  position: relative;
+  cursor: pointer;
+}
+.box-view .box-view-type div {
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  width: 100%; 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important; 
+ /* border-radius: 20px 20px 0 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-view .box-view-type div img{
+ 
+  width: 100%; 
+
+}
+
+
+.box-view .box-view-type h3 {
+  position: absolute;
+  bottom: 0; 
+  font-family: SukhumvitSet-Bold;  
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center; 
+  color: #222222;
+  width: 100%;
+}
+.main-description{
+  margin-top: 20px;
+  padding: 0px 0px 0px 0px;
+  padding-bottom: 50px;
+}
+.main-description h2{
+  font-family: SukhumvitSet-Bold;   
+  font-size: 26px;
+  text-align: left;
+  line-height: 41px; 
+  color: #374757;
+  margin-top: 35px;
+}
+.main-description h2 span{ 
+  color: #FFB800; 
+}
+.main-description h2 b{ 
+  color: #DD4939; 
+}
+.main-description h6{
+  font-family: SukhumvitSet-Light;;    
+  font-size: 18px;
+  line-height: 29px; 
+  color: #222222;
+}
+.room-feature {
+  font-family: SukhumvitSet-Thin;    
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px; 
+  color: #222222; 
+  padding-left: 34px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: bold;
+}
+.room-feature img{
+  position: absolute;
+  left: 0;
+  top: 4px;
+  height: 24px;
+}
+.basic-information{
+  width: 874px;
+  height: 550px; 
+  border-radius: 10px;
+  background-color: #F5F7FA;
+  padding: 23px 34px 22px;
+} 
+.basic-information h4{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: normal;
+  border-bottom: 1px dashed #979797;
+  font-size: 16px;
+  line-height: 29px; 
+  color: #222222;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+} 
+.basic-information h4:last-child{
+  border-bottom: 0px dashed #979797;
+} 
+.basic-information h4 span{ 
+  color: #5681BF;
+  font-weight: bold;
+}
+.information{  
+  padding: 20px 14px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+
+
+
+.information h3{
+  font-family: SukhumvitSet-Bold;    
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px; 
+  color: #222222;
+}
+.information form input{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 40px; 
+  background: #F2F2F2;
+  opacity: 0.9;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+} 
+.information form textarea{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 75px; 
+  background: #F2F2F2;
+  opacity: 0.9;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+}
+.information form button{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF; 
+  width: 100%;
+  height: 40px; 
+  background: #DD4939;
+  opacity: 0.9;
+  border-radius: 10px;
+  transition: .33s all ease-out;
+}
+.information form button:hover{
+  background: #F82913;
+  color: #FFFFFF; 
+}
+.information h2{
+  font-family: SukhumvitSet-Bold;    
+  text-align: center;
+  font-size: 18px !important;
+  line-height: 29px; 
+  color: #222222;
+  margin-top: 30px !important;
+  margin-bottom: 25px;
+} 
+.information .btn-social{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 40px; 
+  background: #FFFFFF; 
+  border: 1px solid #AFAFAF;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #374757;
+  transition: .33s all ease-out;
+  margin-bottom: 12px;
+  display: block;
+}
+.information .btn-social:hover{ 
+  background: #DADADA;   
+  color: #374757;
+  border: 1px solid #AFAFAF;
+}
+
+
+
+
+.information2{  
+  /*
+  padding: 20px 14px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;*/
+}
+
+.information2 h3{
+  font-family: SukhumvitSet-Bold;    
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px; 
+  color: #222222;
+}
+.information2 form input{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 40px; 
+ /* background: #F2F2F2; */
+  opacity: 0.9;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+} 
+.information2 form textarea{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 75px; 
+ /* background: #F2F2F2;*/
+  opacity: 0.9;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+}
+.information2 form button{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF; 
+  width: 100%;
+  height: 40px; 
+  background: #DD4939;
+  opacity: 0.9;
+  border-radius: 10px;
+  transition: .33s all ease-out;
+  margin-bottom: 20px;
+}
+.information2 form button:hover{
+  background: #F82913;
+  color: #FFFFFF; 
+}
+.information2 h2{
+  font-family: SukhumvitSet-Bold;    
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px; 
+  color: #222222;
+  margin-top: 30px;
+  margin-bottom: 25px;
+} 
+.information2 .btn-social{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 40px; 
+  background: #FFFFFF; 
+  border: 1px solid #AFAFAF;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #374757;
+  transition: .33s all ease-out;
+  margin-bottom: 12px;
+  display: block;
+}
+.information2 .btn-social:hover{ 
+  background: #DADADA;   
+  color: #374757;
+  border: 1px solid #AFAFAF;
+}
+
+
+
+
+.project-detail{
+  display: flex;
+
+}
+.project-detail .img{
+  display: flex;
+  width: 100%;
+  height: 248px;  
+  border-radius: 10px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important; 
+  margin-right: 33px;
+}
+.project-detail .text{
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+.project-detail .text li p{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px; 
+  color: #222222;
+} 
+.project-detail .text li p{
+  width: 175px;
+  float: left;
+  margin-bottom: 0px;   
+}
+.project-detail .text li p:nth-child(2){
+  width: 315px;  
+}
+.project-detail .text li p span{
+  color: #5681BF;  
+} 
+
+.loan-calculation{ 
+  height: 363px; 
+  border-radius: 10px;
+  background-color: #F5F7FA;
+  padding: 25px 39px;
+} 
+.loan-calculation label{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 34px; 
+  color: #222222; 
+}
+.loan-calculation input{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  height: 46px; 
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding-left: 56px;
+  padding-right: 60px;
+}
+.loan-calculation input + p{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 17px;
+  font-size: 14px;
+  line-height: 22px; 
+  font-family: SukhumvitSet-Bold;     
+  color: #374757;
+  border-right: 1px solid #DADADA;
+  padding-right: 13px;
+}
+.loan-calculation input + p + span{
+  position: absolute;
+  right: 0;
+  margin-top: -40px;
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 22px; 
+  font-family: SukhumvitSet-Bold;      
+  text-align: right; 
+  color: #979797;
+}
+.loan-calculation input{
+  margin-bottom:  5px;
+}
+.main-description canvas{
+  display: block;
+  margin: auto;
+}
+.main-description canvas + h4{
+  font-size: 18px;
+  line-height: 34px; 
+  color: #222222;
+  font-family: SukhumvitSet-Bold;     
+  text-align: center;
+  margin-top: 20px;
+} 
+.data-doughnut{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data-doughnut ul{
+  padding-left: 0;
+  list-style: none;
+  margin-top: 30px;
+}
+.data-doughnut ul li{
+  font-family: SukhumvitSet-Bold;     
+  font-size: 12px;
+  line-height: 32px; 
+  color: #000000;
+  padding-left: 20px;
+  position: relative;
+}
+.data-doughnut ul li div{
+  position: absolute;
+  left: 0;
+  width: 12px;
+  height: 12px;  
+  border-radius: 100%;
+  margin-top: 9px;
+} 
+.data-doughnut ul li.doughnut1 div{ 
+  background: #1F4D8E; 
+}
+.data-doughnut ul li.doughnut2 div{ 
+  background: #FFB800; 
+}
+.btn-request{
+  font-family: SukhumvitSet-Bold;     
+  width: 167px;
+  height: 40px;  
+  background: #1F4D8E;
+  opacity: 0.9;
+  border-radius: 10px; 
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+  transition: .33s all ease-out;
+}
+.btn-request:hover{ 
+  background: #3B5998; 
+  color: #FFFFFF;
+}
+.available .sel1{
+  width: 122px !important; 
+} 
+.available .bootstrap-select .btn .filter-option-inner-inner{
+  line-height: 32px;
+}
+.available .sel1 + .btn{
+  width: 122px; 
+  height: 46px;  
+} 
+.available .sel2{
+  width: 307px !important; 
+} 
+.available .sel2 + .btn{
+  width: 307px; 
+  height: 46px;  
+} 
+.available  .bootstrap-select{
+  margin-left: 10px !important;
+}
+.available .btn-sel{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  width: 96px;
+  height: 46px;  
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 22px; 
+  color: #374757;
+  margin-left: 10px; 
+  transition: .33s all ease-out;
+} 
+.available .btn-sel:hover{
+  background: #1F4D8E;
+  color: #fff;
+}
+.available .btn-sel.active{
+  background: #1F4D8E;
+  color: #fff;
+} 
+.available-card > .row > div .condo-card{
+  width: 100% !important;
+  height: unset !important;
+  padding-bottom: 25px;
+}
+
+.available-card > .row > div .condo-card-detail{
+  width: 100% !important;
+  height: unset !important;
+  padding-bottom: 25px;
+}
+
+.available-card .option2{
+  display: flex;
+  margin-top: -20px;
+  border-top: 1px solid #E5E5E5;
+  padding-top: 12px;
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+} 
+.available-card .option2 p{ 
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  position: relative;
+  width: 50%;
+  font-size: 14px;
+  line-height: 22px; 
+  color: #374757;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+.available-card .option2 p:after{ 
+  content: "";
+  left: 0;
+  margin-top: 8px;
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: #374757;
+}
+.available-card .condo-card .btn-unit{
+  font-family: SukhumvitSet-Bold;   
+  width: 137px;
+  height: 40px; 
+  background: #1F4D8E;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+  margin-right: 2px;
+} 
+
+.btn-unit{
+  font-family: SukhumvitSet-Bold;   
+  width: 100%;
+  height: 40px; 
+  background: #1F4D8E;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+
+} 
+
+.btn-search{
+  font-family: SukhumvitSet-Medium;   
+  width: 100%;
+  height: 40px; 
+  background: #dd4939;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+  margin-right: 2px;
+  margin-bottom: 20px;
+  border:0px;
+} 
+
+.btn-enquirenow{
+  font-family: SukhumvitSet-Medium;   
+  width: 100%;
+  height: 40px; 
+  background: #dd4939;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+  margin-right: 2px;
+  margin-bottom: 10px;
+} 
+
+.icon_location{
+  padding-bottom: 5px;
+}
+.btn-location{
+  font-family: SukhumvitSet-Medium;   
+  width: 100%;
+  height: 40px; 
+  background: #5681BF;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+  margin-right: 2px;
+  margin-bottom: 10px;
+} 
+
+.available-card .condo-card .btn-des{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  width: 137px;
+  height: 40px; 
+  background: #FFB800;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+  margin-left: 2px;
+} 
+
+
+.btn-des{
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  width: 100%;
+  height: 40px;  
+  background: #FFB800;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 29px; 
+  text-align: center; 
+  color: #FFFFFF;
+ 
+} 
+
+.available-card .option3{
+  display: flex; 
+  justify-content: center;
+} 
+.bg-unit{
+  background: #E5E5E5;
+ 
+} 
+.box-lat{ 
+  border-radius: 20px;
+  margin-top: 40px;
+  height: 332px; 
+  background: url(../images/bg-last.png) ,  #374757 ;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important; 
+  background-blend-mode: luminosity; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.box-lat h1{ 
+  font-family: SukhumvitSet-Bold;    
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center; 
+  color: #FFFFFF;
+} 
+.box-lat h4{ 
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 41px;
+  text-align: center; 
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.box-lat .btn{ 
+  font-family: SukhumvitSet-Thin;    
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px; 
+  text-align: center; 
+  color: #FFFFFF;
+  width: 274px;
+  height: 46px;  
+  border-radius: 10px;
+  margin: 4px;
+}
+.box-lat .btn:nth-child(1){ 
+  background: #FFB800;
+}
+.box-lat .btn:nth-child(2){ 
+  background: #DD4939;
+}
+.bg-last-box{
+  background-color: #fff; 
+ 
+  padding: 10px;
+}
+.view-project{
+  text-align: center;
+}
+.view-project .img{
+  margin-bottom: 30px;
+  height: 191px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important; 
+  border-radius: 10px;
+}
+
+.view-project .img .img-project{
+  background-position: center center !important;
+  background-repeat: no-repeat !important; 
+  width: 100%;
+  height: 191px;
+  border-radius: 10px; 
+  object-fit:cover;
+}
+
+ .view-project-detail{
+  width: 100%;
+  padding: 2px;
+
+}
+
+
+ .view-project-detail-a{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px; 
+ /* height: 505px;*/
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px #0000001A;
+  border-radius: 20px;
+
+}
+
+.view-project-detail-a h4 p{
+  margin-top: 35px !important; 
+  margin-bottom:5px !important;  
+  color: #5681BF;
+}
+
+.view-project h3{ 
+  font-family: SukhumvitSet-Bold;     
+  font-size: 26px;
+  line-height: 30px; 
+  text-align: center; 
+  color: #5681BF; 
+  border-bottom: 1px solid #DADADA;
+ /* max-height: 52px; */
+ /* white-space: nowrap;*/
+  overflow: hidden;
+} 
+.view-project h4{ 
+  font-family: SukhumvitSet-Light;     
+  font-size: 22px;
+  line-height: 25px; 
+  text-align: left; 
+  color: #000; 
+  border-bottom: 1px solid #DADADA;
+ /* max-height: 52px;*/
+  white-space: nowrap;
+  overflow: hidden;
+
+
+} 
+.view-project h3.m{ 
+  height: 105px;
+} 
+.view-project h3.m span{ 
+  color: #374757;
+  font-size: 18px;
+}  
+.view-project h3.m span b{ 
+  color: #4EA854; 
+} 
+
+.add-project .img{
+  margin-bottom: 30px;
+  height: 191px;
+  background: #F5F5F5;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.add-project .img img{
+  height: 40px;
+}
+
+.add-project h3{ 
+  padding-left: 45px;
+  font-family: SukhumvitSet-Bold;     
+  font-size: 22px;
+  line-height: 52px;
+  border: 1px solid #fff;
+  color: #374757; 
+}   
+.add-project h3.m{ 
+  height: 105px;
+}
+.view-project strong{
+  display: none;
+}
+.lSPager{
+ display: none !important;
+}
+.lSAction{
+ display: block !important;
+}
+.lSAction > a{ 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 17px 34px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  width: 89px !important;
+  height: 89px !important; 
+  top: calc(50% - 22px ) !important;
+}
+.lSNext{
+  background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important;
+}
+.lSPrev{
+  background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important;
+}
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.sec-home9  .lSPager{
+  display: block !important;
+  margin-top: 30px !important;
+}
+.sec-home9  .lSAction{
+  display: none !important;
+}
+.lSSlideOuter .lSPager.lSpg > li a{
+  width: 14px !important;
+  height: 14px !important;
+}
+.lSSlideOuter .lSPager.lSpg > li a{
+  
+  background-color: #C4C4C4 !important
+}
+.lSSlideOuter .lSPager.lSpg > li.active a{
+  background-color: #5681BF !important;
+}
+
+
+.owlm2 .owl-nav div{
+  position: absolute !important;
+  width: 48px !important;
+  height: 48px !important;
+  background-color: #000000 !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 0;
+  margin-top: -53px !important; 
+  border-radius: 100% !important;
+  color: rgba(0, 0, 0, 0) !important; 
+}   
+
+
+.sec-home7 .lSAction > a{ 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 10px 18px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  width: 48px !important;
+  height: 48px !important; 
+  top: 30% !important;
+}
+.sec-home7 .lSNext{
+  background: url(../images/right2.png) , #000 !important;
+}
+.sec-home7 .lSPrev{
+  background: url(../images/left2.png) , #000 !important;
+}
+
+
+.sec-home2 .lSSlideOuter .lightSlider > *, .sec-home2 .lSSlideOuter .lSGallery li{
+  display: block;
+  justify-content: center;
+  width: 100%;
+  margin-right: 10px !important;
+}
+
+
+.item2 .lslide.active:nth-child(1)  + .lSAction  {
+  display: none !important;
+}
+
+.dropdown-toggle::after { 
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.dep-box .btn.dropdown-toggle{
+  width: 100% !important;
+}
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal-xl {
+  max-width: 100% !important;
+	width: 100% !important;
+  margin: 0px !important;
+}
+.modal .nav-link{
+  font-family: SukhumvitSet-Bold;     
+}  
+.modal .nav-tabs .nav-item .nav-link{ 
+  border: 1px solid #1F4D8E;
+  border-radius: 10px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #1F4D8E;
+}
+.modal .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: #1F4D8E; 
+  border: 1px solid #1F4D8E;
+  color: #fff !important;
+}
+.modal .nav.nav-tabs{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 0px !important;
+}
+
+
+#view360 img{
+  height: 700px;
+}
+#photo .carousel-control-prev-icon {
+  width: 12px;
+  background-image: url(../images/left.png);
+}
+#photo .carousel-control-next-icon {
+  width: 12px;
+  background-image: url(../images/right.png);
+}
+.carousel-control-prev{
+  opacity: 1;
+}
+.carousel-control-next{
+  opacity: 1;
+} 
+#itemx1 .carousel-control-prev{  
+  top: 20% !important;
+  align-items: flex-start;
+} 
+#itemx1 .carousel-control-next{  
+  top: 20% !important;
+  align-items: flex-start;
+} 
+#itemx1 .carousel-control-prev span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+} 
+#itemx1 .carousel-control-next span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+}
+
+#itemx2 .carousel-control-prev{  
+  top: 20% !important;
+  align-items: flex-start;
+} 
+#itemx2 .carousel-control-next{  
+  top: 20% !important;
+  align-items: flex-start;
+} 
+#itemx2 .carousel-control-prev span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+} 
+#itemx2 .carousel-control-next span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+}
+
+#itemx3 .carousel-control-prev{  
+  top: 20% !important;
+  align-items: flex-start;
+} 
+#itemx3 .carousel-control-next{  
+  top: 20% !important;
+  align-items: flex-start;
+} 
+#itemx3 .carousel-control-prev span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+} 
+#itemx3 .carousel-control-next span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+}
+
+
+#itemx4 .carousel-control-prev{  
+  /*top: 10% !important;
+  align-items: flex-start; */
+} 
+#itemx4 .carousel-control-next{  
+  /*
+  top: 10% !important;
+  align-items: flex-start; */
+} 
+#itemx4 .carousel-control-prev span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+} 
+#itemx4 .carousel-control-next span{ 
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+  opacity: 1 !important;
+  background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px 20px !important; 
+}
+
+
+.modal-message-w3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-message {
+  background-color: #fefefe;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+
+/* The Close Button */
+.close {
+  color: #000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon_down{
+  color: #fff;
+}
+/* 
+transition: .33s all ease-out;
+*/
+   
+/* 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE  
+*/
+
+
+
+
+
+
+ 
+@media only screen and (max-width: 991px) { /* MOBILE */ 
+  header .navbar-collapse{
+    background-color: #000;
+    padding: 15px; 
+  }
+  header .navbar-collapse form{
+    padding: 10px;
+  } 
+  header .navbar-collapse form input{
+    width: 100%;
+    height: 40px;
+  }
+  header .navbar-collapse form button{
+    top: 10px !important;
+    right: 10px !important;
+    height: 40px !important;
+  }
+  header nav .navbar-nav .nav-item .nav-link{ 
+    text-align: center;
+
+  }
+  header nav .navbar-nav .nav-item.active .nav-link{ 
+    color: #FFFFFF;
+    text-align: center;
+    background: #FF9900;
+    border-radius: 6px;
+    width:100%;
+  }  
+  header nav .navbar-nav .nav-item  .dropdown-menu{ 
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    padding-left: 0px;
+    font-family: SukhumvitSet-Bold;   
+  }
+
+  .text_center{
+    text-align: center !important;
+  }
+  
+  .benefits{ 
+    background-size: auto 100% !important;   
+    padding: 10px;
+  }
+  .benefits > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: unset;  
+  }  
+  .benefits .pr-4{
+    padding-right: 0px !important;
+  }
+  .benefits .pl-4{
+    padding-left: 0px !important;
+  } 
+  .benefits h1 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .benefits h3 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .benefits .bene-box{
+    padding-right: 15px;
+    height: unset;
+    padding-bottom: 5px;
+  }
+  .benefits .bene-box div{
+    width: 60px;
+    height: 60px;
+  }
+  .benefits .bene-box h4{
+    padding-left: 80px;
+  }
+  .benefits .bene-box h5{
+    padding-left: 80px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+  .h11 { 
+    font-size: 34px;
+    line-height: 50px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-main form button{
+    margin-bottom: 30px;
+  }
+  .contact-main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    height: unset;
+  }
+  .contact-main .pr-5{
+    padding-right: 0px !important;
+  }
+  .contact-main .pl-5{
+    padding-left: 15px !important;
+  }
+  .contact-user .user img{
+    width: 100px;
+    height: 100px;
+  }
+  .contact-user{ 
+    display: block; 
+    height: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .category-sec .col-xl-8 > .row > div{
+    flex-basis: unset !important;
+    margin-bottom: 10px;
+  }
+  .map-nav{
+   /* padding: 15px; */
+  }
+  .category-sec .condo-card{
+    width: 100%;
+  }
+  .category-sec .container-fluid > .row .col-xl-3{
+    display: flex;
+    justify-content: center;
+  }
+  .category-sec > div{ 
+    padding: 25px 15px ;
+  }
+  nav{ 
+    z-index: 1000;
+  }
+  .navbar-collapse{
+     margin-top: -5px; 
+  }
+  .navbar{
+    padding: 0px 0px !important;
+    height: 58px;
+  }
+  .navbar-nav{
+   /* background-color: #fff; */
+    z-index: 1000;
+  }
+  header nav .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    height: 40px;
+    line-height: 28px;
+    width: 100%;
+  }
+  header nav .navbar-nav .nav-item .nav-link.btn-tha{
+    width: 100px;
+  }
+  .navbar-collapse .justify-content-end{
+    display: flex;
+    flex-direction: unset !important;
+    padding-left: 0px;
+    justify-content: start !important;
+    padding-bottom: 10px;
+  }
+  .navbar-collapse .justify-content-end li{
+    width: 60px !important; 
+  }
+  .navbar-collapse .justify-content-end li.nav-item{
+    width: 160px !important; 
+    margin-top: 10px;
+  }
+  header{
+   /* padding-left: 15px;
+    padding-right: 15px;*/
+  }
+  .social-con{ 
+    margin-right: 20px; 
+    margin-bottom: 30px; 
+    z-index: 111;
+    width: 64px;
+    height: 54px;
+    border-radius: 10px;
+  } 
+  .social-con img{  
+    width: 45px;
+    height: 45px;
+  } 
+  .social-con button{  
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  } 
+  footer{ 
+    padding: 25px 20px 45px;
+  }
+  footer .bot-menu span{ 
+    float: left;
+    margin-top: 10px;
+  }
+  footer .container-fluid .row div{
+    width: 100%;
+    flex-basis: unset !important;
+    margin-bottom: 15px;
+  }
+
+  footer .container-fluid .row div h3{
+    text-align: left;
+  }
+  footer .container-fluid .row .col{
+    text-align: left;
+  }
+  footer .container-fluid .row div li{
+    text-align: left;
+  }
+
+  footer .bot-menu a{
+    text-align: left;
+  }
+
+  .img-flex{
+    display: block !important;
+  } 
+  .sec-home1{ 
+    background-size: auto 100%; 
+  }
+  .sec-home1 > div{
+    padding: 80px 20px;
+  }
+  .sec-home1 .home1 h1{
+    font-size: 30px; 
+    line-height: 35px; 
+  }
+  .sec-home1 .home1 h3{
+    font-size: 18px; 
+    line-height: 25px; 
+  }
+  .sec-home2{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home2 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home2 h1{
+    font-size: 24px; 
+    line-height: 35px; 
+  }
+  .sec-home2 h4{
+    font-size: 14px; 
+    line-height: 25px; 
+  } 
+  .sec-home3{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home3 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home3 h1{
+    font-size: 24px; 
+    line-height: 35px; 
+  }
+  .sec-home3 h2{
+    font-size: 28px; 
+    line-height: 35px; 
+    text-align: center;
+  } 
+  .sec-home3 h3{
+    font-size: 15px; 
+    line-height: 25px; 
+  } 
+  .sec-home4{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home4 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home4 h1{
+    font-size: 24px; 
+    line-height: 35px; 
+  }
+  .sec-home4 h2{
+    font-size: 28px; 
+    line-height: 35px; 
+  }
+  .sec-home4 h3{
+    font-size: 15px; 
+    line-height: 25px; 
+  } 
+  .sec-home6{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home6 > div{ 
+    padding: 40px 20px;
+  }
+  .sec-home6 h2{
+    font-size: 28px; 
+    line-height: 35px;
+    text-align: center; 
+  }
+  .sec-home6 h3{
+    font-size: 15px; 
+    line-height: 25px; 
+  }
+  
+  .sec-home7{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home7 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home7 h2{
+    font-size: 28px; 
+    line-height: 35px; 
+    text-align: center;
+  }
+  .sec-home7 h3{
+    font-size: 15px; 
+    line-height: 25px; 
+  }
+  .sec-home8{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home8 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home8 h2{
+    font-size: 28px; 
+    line-height: 35px; 
+    margin-top: 20px;
+    text-align: center;
+  }
+  .sec-home8 h3{
+    font-size: 15px; 
+    line-height: 25px; 
+  }
+  .sec-home8 .mb-1{
+   /* margin-bottom: 10px !important;*/
+    padding: 3px;
+  } 
+  .sec-home8-p{
+
+    margin-top: 15px;
+  }
+  .sec-contact{ 
+    background-size: auto 100% !important;
+    height: unset;
+    padding: 15px;
+  }
+
+  .sec-home9{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home9 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home9 h2{
+    font-size: 28px; 
+    line-height: 35px; 
+    margin-top: 20px;
+  } 
+  .testimonial{ 
+/*    width: 295px; */
+ /*   height: 400px; */
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .testimonial img{  
+    position: relative !important;
+    width: 130px !important;
+    height: 130px !important;
+    padding: 5px;
+    border-radius:80px;
+    box-shadow: 3px 2px 5px #ccc; 
+  }
+  .testimonial h4{ 
+    margin-top: 10px;
+    padding-left: 20px !important;
+  }
+  .testimonial h6{ 
+    margin-left: 20px !important;
+  }
+  
+  .sec-home10{
+    height: unset; 
+    background-size: auto 100% !important;
+  }
+  .sec-home10 > div{ 
+    padding: 30px 20px;
+  }
+  .sec-home10 h2{
+    font-size: 28px; 
+    line-height: 35px; 
+    margin-top: 20px;
+    text-align: center;
+  }
+  .sec-home10 h3{
+    font-size: 15px; 
+    line-height: 25px; 
+  } 
+
+  .owlm2 .owl-prev{
+    position: absolute;
+    left: 0;
+    top: unset !important;
+    bottom: 0;
+    margin-bottom: -10px !important;
+  }
+  .owlm2 .owl-next{
+    position: absolute;
+    left: 0;
+    margin-left: 40px !important;
+    top: unset !important;
+    bottom: 0;
+    margin-bottom: -10px !important;
+  }
+
+
+
+
+  .our-ser .icon-ser {
+    width: 86px;
+    height: 86px;
+  }
+  .our-ser h4{
+    font-family: SukhumvitSet-Bold;
+    font-size: 18px;
+    line-height: 28px; 
+    font-weight: bold;
+  }
+  .our-ser p{  
+    font-family: SukhumvitSet-Light;
+    font-size: 14px;
+    /*line-height: 28px; */
+    font-weight: normal;
+  }
+  
+  .condo-card{
+    width: 316px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .condo-card-detail{
+   /* width: 316px; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .owlm .owl-nav div{
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .owlm .owl-prev { 
+    background-size:  auto 24px !important;
+  } 
+  .owlm .owl-next { 
+    background-size:  auto 24px !important;
+  }  
+
+
+  .sec-home1 input{
+    width: 330px;
+    height: 40px;
+    font-size: 14px;
+    padding-right: 70px;
+    z-index: 2;
+    position: relative;
+  }
+  .sec-home1 form .btn{
+    height: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 80px;
+  }
+  .btn-yellow {
+    margin-top: 10px;
+   /* width: 200px; */
+    font-size: 16px;
+  }
+  .btn-yellow2{
+    top: unset;
+    bottom: 0 !important;
+ 
+  }
+  .sec-home10 .mt-5{ 
+    margin-top: 0px !important; 
+  }
+  .sec-home10 .row .col{
+    width: 33%;
+    flex-basis: unset !important;
+    margin-top: 10px;
+    padding: 0px 0px;
+    justify-content: center;
+ 
+  }
+  .arr-right{ 
+    top: 0 !important;
+    margin-right: 0 !important;
+  }
+  .arr-right p{
+    width: 50px;
+    height: 50px;  
+  }
+  .arr-right img{
+    width: auto !important;
+    height: 24px !important;
+  }
+  .search-detail{
+    width: 100%;
+  }
+  .detailx{
+    width: 100% !important;
+  }
+  .map-arr{ 
+    display: none;
+    background: url(../images/right_.png) #4383DF; 
+    order: 1;  
+  }
+  .category-sec .col-xl-3{
+    order: 2; 
+  }
+  .category-sec .numx{
+    order: 3;
+  }
+  .form-dep .dep-box h1 { 
+    font-size: 28px; 
+  }
+  .form-dep .dep-box{ 
+    padding: 25px 25px;
+  }
+  .form-dep .custom-control { 
+    margin-right: 1rem !important;
+  }
+  .form-dep .dep-box form input {
+    font-size: 17px;
+  }
+  .form-dep .dep-box form h3{
+    margin-top: 30px;
+  }
+  .form-dep .dep-box form label {
+    font-size: 17px;
+  }
+  .form-dep .dep-box form h6 {
+    font-size: 12px;
+  }
+  .boxg {
+    height: unset;
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding-top: 17px;
+    padding-bottom: 1px;
+    font-size: 12px;
+    line-height: 26px; 
+  }
+  .form-dep .dep-box form .btn{ 
+    width: 100%;  
+  }
+  
+  .top-detail > div:nth-child(1){
+    margin-top: 25px;
+    border-radius: 20px !important;
+    padding: 18px 15px 6px;
+    height: unset !important;
+    margin-bottom: 0px;
+  }
+  .top-detail > div:nth-child(2){
+    margin-top: 0px;
+    border-radius:  0 0 20px 20px !important;
+    padding: 18px 15px 6px;
+    height: unset !important;
+    margin-bottom: 0px;
+  }
+  .top-detail img{
+    width: 24px;
+    height: 24px;
+  }
+  .top-detail > div:nth-child(2) { 
+    grid-template-columns: repeat(auto-fill,minmax(67px, 1fr));
+   /* display: grid;*/
+  }
+  
+  .icon-detail{
+    width: 80px;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  .img-view { 
+    margin-top: 10px;
+    border-radius: 10px !important;  
+    background-size:  100% 100%  !important;
+    height: 250px;
+  }
+  .label-rent { 
+    margin-top: 5px; 
+    transform: scale(0.7);
+    margin-left: 0px;
+  } 
+  .rent-sell { 
+    left: -30px; 
+  }
+  .btn-print { 
+    right: 13px;
+    top: 10px; 
+  }
+  .btn-share { 
+    right: 25px;
+    top: 85px; 
+  }
+  .img-view-sub{
+    display: flex;
+    margin-top: -70px;
+  }
+  .img-view-sub > div{
+    width: 100%;
+    height: 100px;
+  }
+  .box-view .box-view-type div { 
+    background-size: 100% 100%  !important; 
+  }
+  .img-view-sub > div:nth-child(3) p { 
+    font-size: 17px;
+    line-height: 20px; 
+  }
+  .box-view-type > div{
+    display: none !important;
+  }
+  .box-view .box-view-type {
+    width: 90px;
+    font-size: 14px;
+    /*height: 55px; */
+  }
+  .box-view { 
+    bottom: -75px; 
+  }
+  .box-view .box-view-type h3 {
+    font-size: 13px; 
+  }
+  .img-view-sub > div:nth-child(1) {
+    border-radius: 0px !important;
+  }
+  .img-view-sub > div:nth-child(3)::before { 
+    border-radius: 0px  !important;
+  }
+  .img-view-sub > div:nth-child(3) { 
+    border-radius: 0px  !important;
+  }
+  .main-description h2 {
+    margin-top: 10px;
+  }
+  .main-description h6 { 
+    font-size: 15px;
+    line-height: 24px; 
+  }
+  .basic-information{
+    height: unset !important; 
+    padding: 25px 15px 0px;
+  }
+  .basic-information .pr-5{
+    padding-right: 15px !important;
+  }
+  .project-detail {
+    display: block;
+  }
+  .project-detail .text li{
+    display: flex;
+  }
+  .project-detail .text li p { 
+    margin-bottom: 8px; 
+    font-size: 14px;
+  }
+  .information form .col-xl-6.pr-1{
+    padding-right: 15px !important;
+  }
+  .information form .col-xl-6.pl-1{
+    padding-left: 15px !important;
+    margin-top: 1rem !important;
+  }
+  .loan-calculation{
+    height: unset !important;
+    padding: 20px 15px 20px 15px !important;
+  }
+  .loan-calculation .col-xl-6.pr-5{
+    padding-right: 15px !important;
+  }
+  .loan-calculation .col-xl-6.pl-5{
+    padding-left: 15px !important;
+    margin-top: 1rem !important;
+  }
+  .available .btn-sel { 
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  
+  .available .sel1{
+    width: 100% !important;  
+  } 
+  .available .sel1 + .btn{
+    width: 100% !important;  
+  } 
+  .available .sel2{
+    width: 100% !important;  
+    margin-top: 20px;
+  }  
+  .available .sel2 + .btn{
+    width: 100% !important;  
+  } 
+  .available  .bootstrap-select{
+    margin-left: 10px !important;
+  }
+  .available-card{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .available-card > .row > div .condo-card{
+    margin-top: 20px;
+  }
+  .box-lat {
+    border-radius: 10px;
+    margin-top: 20px;
+    height: unset !important;
+    display: flex;
+    padding: 20px 15px;
+  }
+  .box-lat h1 { 
+    font-size: 20px;
+    line-height: 35px; 
+  }
+  .box-lat h4 { 
+    font-size: 16px;
+    line-height: 25px; 
+    margin-bottom: 10px;
+  }
+  .box-lat .btn { 
+    font-size: 16px; 
+    width: 160px;
+    height: 40px; 
+  }
+  .main-description h2 { 
+    font-size: 26px; 
+  }
+  .bg-last-box .pl-4.pr-4{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .bg-last-box .col-xl-3:nth-child(1){
+    display: none;
+  }
+  .view-project h3{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+
+
+  }
+  .view-project h4 {
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+  }
+  .view-project h3 span{
+    position: relative;
+    text-align: right;
+    font-size: 12px;
+  }
+  .view-project strong{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    display: block;
+  }
+  .col-xl-9.pr-mn{
+    padding-right: 5px !important;
+  }
+  .available{
+    padding-right: 25px !important;
+  }
+  .available .bootstrap-select>select{
+    left: 0 !important;
+  }
+  .available-card .col-xl-3{
+    padding-left: 15px !important;
+  }
+  
+  .available-card .condo-card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;  
+  }
+  .information .pr-1{
+    padding-right: 15px !important;
+  }
+  .information .pl-1{
+    padding-left: 15px !important;
+    margin-top: 15px;
+  }
+
+  .information2 .pr-1{
+    padding-right: 15px !important;
+  }
+  .information2 .pl-1{
+    padding-left: 15px !important;
+    margin-top: 15px;
+  }
+  
+  .lSAction > a{  
+    width: 48px !important;
+    height: 48px !important;  
+    background-size: 11px 20px !important;
+  }
+  .modal .nav-tabs .nav-item .nav-link {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
+    margin-right: 2px; 
+    font-size: 12px;
+  }
+  .box-view .box-view-type{
+    border-radius: 5px;
+  }
+  .img-view-sub{
+    display: none;
+  }
+  .box-view{
+    position: unset !important;
+    justify-content: center;
+  }
+  .img-view{
+    margin-bottom: 10px;
+  }
+  .box-view .box-view-type{
+    width: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+  /*  height: 100px; */
+   /* margin-bottom: 5px;*/
+  }
+  .box-view .box-view-type h3 {
+    font-size: 11px;
+  }
+  .box-view .box-view-type div{
+    display: flex !important;
+    width: 100%;
+  /*  height: 75px; */
+    border-radius: 5px 5px 0 0;
+  }
+  .box-view .box-view-type div img {
+  /*  height: 75px;*/
+    width: 100%; 
+   /* border-radius: 20px 20px 0 0; */
+    background-position: center !important;
+    background-repeat: no-repeat !important; 
+    object-fit:cover;
+  }
+  #view360 img{
+    height: 100%;
+  }
+  .rent-sell {
+    left: -35px;
+  }
+  .label-rent { 
+    transform: scale(0.6); 
+  }
+  .rent-sell > a:nth-child(2) .label-rent{
+    margin-top: -15px;
+  }
+  .btn-share { 
+    top: 20px;
+  }
+  .room-feature { 
+    font-size: 12px; 
+    line-height: 30px;
+    margin-bottom: 0px;
+  }
+  .carousel-inner .img-cover1{
+    width: 95% !important;
+  }
+  .carousel-inner .img-cover2{
+    width: 95% !important;
+  }
+  
+  
+  #item_box2 .carousel-control-prev span{ 
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100%;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+    opacity: 1 !important;
+    background: url(../images/left.png) , rgba(255, 255, 255, 0.6) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 11px 20px !important; 
+  } 
+  #item_box2 .carousel-control-next span{ 
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100%;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+    opacity: 1 !important;
+    background: url(../images/right.png) , rgba(255, 255, 255, 0.6) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 11px 20px !important; 
+  }
+}
+
+
+@media only screen and (width: 1024px) { /* IPAD PRO */  
+  .map-arr{ 
+    display: none;
+    background: url(../images/right_.png) #4383DF; 
+    order: 1;  
+  }
+  .category-sec .col-xl-3{
+    order: 2; 
+  }
+  .category-sec .numx{
+    order: 3;
+  } 
+  .benefits > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: unset;  
+  }  
+  .benefits .pr-4{
+    padding-right: 15px !important;
+  }
+  .benefits .pl-4{
+    padding-left: 15px !important;
+  } 
+  .benefits { 
+    background-size: auto 100%  !important; 
+  }
+  .bene-box{
+    height: unset;
+  }
+  .contact-main{
+    height: unset;
+  }
+  .contact-description h3{
+    margin-top: 35px;
+  }
+  .top-detail img {
+    height: 40px;
+    width: 40px;
+  }
+  .top-detail .optix > div {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  .top-detail h5 { 
+    font-size: 10px; 
+  }
+  .img-view { 
+    border-radius: 40px !important; 
+  }
+  .box-view { 
+    bottom: -45px; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .img-view-sub{ 
+    display: flex !important;
+  }
+  .img-view-sub > div{ 
+    border-radius: 0px !important;
+    width: 33%;
+  }
+  .img-view-sub > div::before{ 
+    border-radius: 0px !important;
+    width: 33%;
+  }
+  .loan-calculation{
+    height: unset !important;
+  }
+  .available-card.p-0{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .available  .condo-card {
+    margin-left: 0px !important;
+    margin-right: 0px !important; 
+  }
+  .available-card > .row > div .condo-card{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 30px;
+  }
+  .add-project h3 {
+    padding-left: 0px;
+  }
+  .view-project .img { 
+    background-size: 100% 100%  !important; 
+  }
+  .information{  
+    width: 100% !important;
+  } 
+  .information2{  
+    width: 100% !important;
+  } 
+}
+@media only screen and (width: 768px) { /* IPAD PRO */  
+  .project-detail {
+    display: flex;
+  }
+  .project-detail .img { 
+    background-size: 100% 100% !important; 
+  }
+  .top-detail > div:nth-child(2) {
+    grid-template-columns: unset !important;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1200px) {   
+  .category-sec .condo-card .cover{ 
+    height: 150px;
+    background-size: auto 100%  !important;
+  }
+  .category-sec > div{
+    padding: 20px 10px !important;
+  }
+  .category-sec .condo-card ul{
+    grid-template-columns: repeat(auto-fill,minmax(45px, 1fr));
+  }
+  .information.active{  
+    position: fixed;
+    top: 80px; 
+    z-index: 1111 !important;
+  }
+  .information{  
+    width: 359px; 
+  }
+  .information2.active{  
+    position: fixed;
+    top: 80px; 
+    z-index: 1111 !important;
+  }
+  header nav .navbar-nav .nav-item .nav-link{ 
+    font-size: 19px; 
+    padding-left: 0px;
+    padding-right: 0px; 
+  }
+}
+@media only screen and (min-width: 1400px) {  
+  .category-sec .condo-card .cover{  
+    height: 180px;
+    background-size: 100%  auto !important;
+  } 
+  header nav .navbar-nav .nav-item .nav-link{ 
+    font-size: 20px; 
+    padding-left: 15px;
+    padding-right: 15px; 
+  }
+} 
+@media only screen and (min-width: 1700px) {  
+  header{ 
+    padding-left: 80px;
+    padding-right: 80px;  
+  } 
+  .category-sec .condo-card{  
+    height: 460px; 
+    max-width: 400px !important;
+  }
+  .category-sec .condo-card .cover{  
+    height: 250px;
+    background-size: 100%  auto !important;
+  }
+  .category-sec .condo-card ul{
+    grid-template-columns: repeat(auto-fill,minmax(60px, 1fr));
+  }
+  header nav .navbar-nav .nav-item .nav-link{ 
+    font-size: 22px;  
+  }
+  /* .category-sec .condo-card{  
+    max-width: 400px !important;
+  }  */
+}
+
+@media only screen and (min-width: 992px) {  
+  .category-sec > div  {
+    padding: 50px 25px !important;
+  }
+  .category-sec .col-xl-8 .row > .col-xl-4.text-right{
+    text-align: left !important;
+  }
+}
+
+   
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  } 
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+    height: 500px;
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+.sec-home-detail{
+  background-color: #ebebeb;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 630px; 
+  padding-top: 40px;
+  background-blend-mode: luminosity;
+}
+.sec-home-detail > div{
+  /*padding: 50px 70px 90px; */
+
+}
+.sec-home-detail h1{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 48px;
+  line-height: 76px; 
+  align-items: center;
+  text-align: center; 
+  color: #1F4D8E;
+}
+.sec-home-detail h1 span{ 
+  color: #FFB800;
+}
+.sec-home-detail h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 26px;
+  line-height: 38px; 
+  align-items: left;
+  text-align: left; 
+  color: #374757;
+  margin-left: 10px;
+  /*margin-bottom: 30px; */
+  /*
+  margin-left: 100px; */
+}
+
+
+.detail-center{
+  text-align: center !important;
+}
+
+.detail-margin-top{
+  margin-top: 50px !important;
+}
+
+.sec-home-detail table{
+  width: 100%;
+  text-align: center;
+  margin-top: 6px;
+} 
+
+.sec-home-detail tr{
+  width: 100%;
+ 
+} 
+.sec-home-detail td{
+  text-align: center;
+  width: 25%;
+} 
+
+.sec-home-detail tr td img{
+  text-align: center;
+  height: 22px;
+  width: 22px !important;
+  display: unset !important;
+}
+.sec-home-detail tr h6{
+  font-family: SukhumvitSet-Bold;   
+  align-items: center;
+  color: #979797;
+  font-size: 11px;
+  line-height: 18px;
+}
+.sec-home-detail tr h6 span{
+  color: #5681BF;
+} 
+
+
+.sec-home-detail_2{
+  background-color: #ebebeb;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+ /* height: 700px;  */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-blend-mode: luminosity;
+}
+.sec-home-detail_2 > div{
+ /* padding: 50px 70px 90px; */
+}
+.sec-detail_2-detail h1{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 48px;
+  line-height: 76px; 
+  align-items: center;
+  text-align: center; 
+  color: #1F4D8E;
+}
+.sec-home-detail_2 h1 span{ 
+  color: #FFB800;
+}
+.sec-home-detail_2 h3{
+  font-family: SukhumvitSet-Bold;  
+  font-size: 26px;
+  line-height: 38px; 
+  align-items: center;
+  text-align: left; 
+  color: #374757;
+  margin-left: 10px;
+  /*margin-bottom: 30px; */
+  /*
+  margin-left: 100px; */
+}
+
+.sec-home-detail_2 table{
+  width: 100%;
+  text-align: center;
+  margin-top: 6px;
+} 
+
+.sec-home-detail_2 tr{
+  width: 100%;
+ 
+} 
+.sec-home-detail_2 td{
+  text-align: center;
+  width: 25%;
+} 
+
+.sec-home-detail_2 tr td img{
+  text-align: center;
+  height: 22px;
+  width: 22px !important;
+  display: unset !important;
+}
+.sec-home-detail_2 tr h6{
+  font-family: SukhumvitSet-Bold;   
+  align-items: center;
+  color: #979797;
+  font-size: 11px;
+  line-height: 18px;
+}
+.sec-home-detail_2tr h6 span{
+  color: #5681BF;
+} 
+
+.search_m{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  width: 100%;
+}
+/*
+.search_m label{
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+*/
+
+.content-sec{
+  background: #FFF; 
+  justify-content: center;
+  margin:10px;
+  display: flex;
+}
+.content-sec > div{ 
+  padding:0px 0px ;
+}
+
+
+.content-card{
+  width: 100%;
+  margin-left: 00px;
+  margin-right: 00px; 
+  margin:10px;
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.content-card .cover{ 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  height: 230px;
+  border-radius: 10px; 
+}
+
+ .content-card .cover .cover-img{  
+    background-position: center center !important;
+    background-repeat: no-repeat !important; 
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    object-fit:cover;
+  }
+
+.category-sec .content-card .cover{
+  height: 200px; 
+}
+.category-sec .content-card{
+ 
+}
+.content-card .detail h4{ 
+  border-bottom: 1px solid #E5E5E5;
+  padding-top: 13px;
+  padding-bottom: 5px; 
+  font-size: 26px;
+  line-height: 41px;  
+  color: #DD4939;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 15px;
+}
+.content-card .detail h4 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797;
+  padding-top: 10px;
+  font-family: SukhumvitSet-Light;   
+} 
+.content-card .detail h5{   
+  font-size: 20px;
+  line-height: 32px; 
+  color: #374757;
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+
+}
+.content-card .detail h5 span{ 
+  float: right;   
+  font-size: 14px;
+  line-height: 22px;
+  color: #1F4D8E; 
+  font-family: SukhumvitSet-Bold;   
+  margin-bottom: 0px;
+}
+.content-card .detail h6{  
+  font-size: 14px;
+  line-height: 22px;
+  color: #979797; 
+  font-family: SukhumvitSet-Bold;   
+}
+.content-card .option{
+  border-top: 1px solid #E5E5E5;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+} 
+.content-card ul{
+  padding-left: 0px;
+  list-style: none;
+  justify-content: center;
+  display: grid;
+  justify-self: unset;
+  grid-template-columns: repeat(auto-fill,minmax(60px, 1fr));
+} 
+ 
+
+
+/*  เพิ่ม */
+
+.d-flx-combo{
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#photo .w-100{
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  z-index: 11 !important;
+  width: 100%;
+}
+#photo .w-100 .btn{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+} 
+#photo .all-viewx{
+  display: none;
+}
+#photo .carouselx{
+  display: none;
+}
+  
+#photo .all-viewx.active{
+  display: block;
+  z-index: -1 !important;
+}
+#photo .carouselx.active{
+  display: block;
+  z-index: 2 !important;
+}
+.all-viewx{
+  /*padding-right: 10px; */
+}
+.all-viewx .col-4 div{
+  cursor: pointer !important; 
+  width: 100%;
+  height: 200px;
+  background-position: center center !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important; 
+}
+.des-photo{
+  /*
+  position: absolute;
+  bottom: 34px;
+  display: flex;
+  justify-content: center; */
+  font-family: SukhumvitSet-Text;
+  width: 100%;
+  text-align: center;
+}  
+
+.range-img{
+  z-index: 111;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 65%;
+  height: 30px;
+  opacity: 1;
+}
+.range-img #compress-alt{
+  display: none;
+  height: 30px;
+}
+.range-img #compress-alt.active{
+  display: block;
+  height: 30px;
+}
+.range-img div{ 
+  background: rgba(0, 0, 0, 0.7);
+  height: 36px;
+  width: 200px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: white;
+  position: relative;
+}
+.range-img div:hover{ 
+  background: rgba(0, 0, 0, 1); 
+}
+.range-img div button{ 
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+  line-height: 26px
+}
+.range-img div input{ 
+  width: 125px;
+  margin-top: 17px;
+  position: absolute;
+}
+.range-img div button#plus{  
+  position: absolute;
+  right: 5px;
+}
+
+#slideshow > div{
+  z-index: 99 !important;
+}
+
+
+.all-viewx .col-4 img{
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  height: 90px;
+  width: 100%;
+  cursor: zoom-in;
+  object-fit: cover;
+}
+
+
+.modal .carousel-indicators {  
+  margin-bottom: -75px;
+}
+ 
+.modal .carousel-indicators li, .carousel-indicators li.active{  
+  width: 7.2vh;
+  height: 5.4vh;
+  background-color: #fff;
+  position: relative;
+  margin: 5px;      
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: auto 100% !important;
+}
+.modal .carousel-indicators .carousel-item img{  
+  height: calc(100vh - 90px);
+}
+.modal-header .close {
+  padding: 1rem; 
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none; 
+  height: 2px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background .3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  } 
+  .modal .carousel-indicators li, .carousel-indicators li.active { 
+    background-size: 100% auto !important;
+  }
+  .carousel-indicators{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -100px !important;
+  }
+  .des-photo{
+    /*bottom: -55px; */
+    font-size: 13px;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+  }
+  .prevx{
+    left: 20px;
+  }
+  .nextx{
+    right: 20px;
+  }
+  .btn-li { 
+    bottom: -50px; 
+  }
+  .btn-span{
+    display: none;
+  }
+  .all-viewx .col-4 div{
+    height: 180px;
+    background-size: auto 100%  !important;
+  }
+  .modal-header { 
+    padding: 1rem 5px; 
+  }
+  .all-viewx .col-4{
+    padding: 2px !important;
+  }
+  .range-img { 
+    bottom: 90px; 
+  }
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}
+
+
+
+
+ 
